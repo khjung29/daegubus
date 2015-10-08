@@ -1,8 +1,8 @@
 {
-  notilist:[
-    notishow : "YES",
-    title : "공지사항",
-    msg : "업데이트 일지 (2015년 10월12일)
+  "notilist":[{
+    "notishow" : "YES",
+    "title" : "공지사항",
+    "msg" : "업데이트 일지 (2015년 10월12일)
           1. 버스업데이트."
-    ]      
+    }]      
 }
