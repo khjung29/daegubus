@@ -1,8 +1,7 @@
 {
   "notilist":[{
-    "notishow" : "YES",
-    "title" : "테스트",
-    "msg" : "테스트입니다.
-    테스트입니다."
+    "notishow" : "NO",
+    "title" : "공지사항",
+    "msg" : "공지사항입니다."
     }]      
 }
