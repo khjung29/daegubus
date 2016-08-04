@@ -1,0 +1,169 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<title>대구광역시 시내버스 노선 안내</title>
+<link rel="apple-touch-icon-precomposed" href="/touch-icon-precomposed.png" />
+<link rel="stylesheet" type="text/css" href="css/cm.css" />
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="css/cm_ie7.css" />
+<![endif]-->
+
+<link rel="stylesheet" type="text/css" href="css/rt.css" />
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="css/rt_ie7.css" />
+<![endif]-->
+
+
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://maps.google.co.kr/maps/api/js?sensor=false&amp;language=ko"></script>
+<script type="text/javascript" src="js/res_ko.js"></script>
+<script type="text/javascript" src="js/cm.js"></script>
+
+<script type="text/javascript">
+if (window.addEventListener) {
+  window.addEventListener('load', function() {
+    setTimeout(scrollTo, 0, 0, 0);
+  }, false);
+}
+
+if( typeof NU_rl == 'undefined' ){
+var NU_rl = 'http://'+'210.103.111.27:8080'; var PCHKIMG = new Image(); var NL_bn=navigator.appName;
+if( document.URL.substring(0,8) == 'https://' ){ NU_rl = 'https:///sslb1';
+}else{
+if( NL_bn.indexOf("Netscape") > -1 || NL_bn=="Mozilla"){ setTimeout("PCHKIMG.src = NU_rl+'/?cookie';",1); } else{ PCHKIMG.src = NU_rl+'/? cookie'; };
+}
+document.writeln("<scr"+"ipt language='javascript' src='/bp/m/js/loginside_mainscript.js'></scr"+"ipt>");
+}
+
+
+</script>
+</head>
+<body>
+<div id="hd">
+  <h1>
+    <a href="index.do">HOME</a>
+  </h1>
+
+  <div class="et">
+    <ul>
+    
+      <li><span class="ebtn"><a href="login.do?act=form">로그인</a></span></li>
+    
+    
+      <li><span class="ebtn"><a href="timeTbl.do?act=main">운행시간표</a></span></li>
+    
+      <li><span class="ebtn"><a href="nonStep.do?act=main">저상버스</a></span></li>
+    
+      <li><span class="ebtn"><a href="locale.do?lang=en">ENG</a></span></li>
+    
+    </ul>
+  </div>
+</div>
+
+<hr />
+
+<div id="gn">
+  <div class="ml">
+    <ul>
+      <li class="d1 ml1 selm">
+        <span><a href="realTime.do?act=arrInfoMain">실시간정보</a></span>
+        <ul>
+          <li class="d2"><a href="realTime.do?act=arrInfoMain">버스도착정보</a></li>
+          <li class="d2"><a href="realTime.do?act=arrInfoRouteMain">노선별도착정보</a></li>
+          <li class="d2"><a href="realTime.do?act=posInfoMain">버스위치정보</a></li>
+        </ul>
+      </li>
+      <li class="d1 ml2">
+        <span><a href="sdRoute.do?act=main">출도착지검색</a></span>
+      </li>
+      <li class="d1 ml3">
+        <span><a href="route.do?act=routeNoMain">노선검색</a></span>
+        <ul>
+          <li class="d2"><a href="route.do?act=routeNoMain">노선번호검색</a></li>
+          <li class="d2"><a href="route.do?act=routeTypeMain">노선유형검색</a></li>
+          <li class="d2"><a href="route.do?act=bsNmMain">정류소명검색</a></li>
+        </ul>
+      </li>
+      <li class="d1 ml4">
+        <span><a href="mypage.do?act=bsMain">맞춤정보</a></span>
+        <ul>
+          <li class="d2"><a href="mypage.do?act=bsMain">관심정류소</a></li>
+          <li class="d2"><a href="mypage.do?act=busMain">관심버스</a></li>
+          <li class="d2"><a href="mypage.do?act=routeMain">관심노선</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<hr />
+
+<div id="body">
+
+
+
+
+
+
+
+<div id="ct">
+  <div><h2><span class="rl">버스 도착 정보</span></h2></div>
+  <div class="rl">
+    <a href="#none" onclick="window.location.reload(true); return false;"><img src="img/reload.png" alt="새로고침" /></a>
+  </div>
+  <div class="dp">
+    <div><h3><span class="st">복현대백맨션건너</span> 경유노선 도착정보</h3></div>
+    
+    
+    <ul class="bl ai">
+    
+          <li class="st"><span class="route_no"><span class="marquee">101-1</span></span><span class="arr_state">전</span><span class="cur_pos"><span class="marquee">출발 <span class="route_note">(파계사방면)</span></span></span></li>
+        
+          <li class="st"><span class="route_no"><span class="marquee">304</span></span><span class="arr_state">전전</span><span class="cur_pos nsbus"><span class="marquee">출발</span></span></li>
+        
+          <li class="st"><span class="route_no"><span class="marquee">323-1</span></span><span class="arr_state">전전</span><span class="cur_pos"><span class="marquee">출발</span></span></li>
+        
+          <li class="nm"><span class="route_no"><span class="marquee">523</span></span><span class="arr_state">4분</span><span class="cur_pos"><span class="marquee">검단동주민센터 <span class="route_note">(동산네거리방면)</span></span></span></li>
+        
+          <li class="nm"><span class="route_no"><span class="marquee">937</span></span><span class="arr_state">5분</span><span class="cur_pos"><span class="marquee">텍스빌</span></span></li>
+        
+          <li class="nm"><span class="route_no"><span class="marquee">413</span></span><span class="arr_state">6분</span><span class="cur_pos nsbus"><span class="marquee">유통단지회차지</span></span></li>
+        
+    </ul>
+  
+    <p class="gd">현 정류소에서 10정류소 이내에 있는 버스의 노선만 조회됩니다.</p>
+  
+  </div>
+</div>
+<script type="text/javascript">
+applyMarquee('marquee');
+</script>
+
+
+</div>
+
+<div id="modalMask" class="mask">
+</div>
+<div id="subway" class="mask">
+</div>
+
+</body>
+</html>
