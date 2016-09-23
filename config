@@ -1,4 +1,8 @@
 {
    "version" : 1,
-   "noti" : true
+   "noti" : true,
+    "notilist":[{
+    "title" : "공지사항",
+    "msg" : "공지사항입니다."
+    }]  
 }
