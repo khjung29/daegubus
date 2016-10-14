@@ -1,6 +1,6 @@
 {
    "version" : 1,
-   "noti" : true,
+   "noti" : false,
     "notilist":[{
     "title" : "공지사항",
     "msg" : "공지사항입니다.\n가나다라"
