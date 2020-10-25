@@ -1,6 +1,6 @@
 {
-   "version" : 6,
-   "version_date" : "2020년03월03일",
+   "version" : 7,
+   "version_date" : "2020년10월25일",
    "noti" : false,
     "notilist":[{
     "title" : "공지사항",
