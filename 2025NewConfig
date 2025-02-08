@@ -1,0 +1,12 @@
+{
+   "version" : 9,
+   "version_date" : "2024년03월01일",
+   "noti" : true,
+   "notiIsUrl" : true,
+   "noti_no_show_key" : "20250208",
+   "versionCode" : 8,
+   "notilist":[{
+    "title" : "노선개편안내\n[2025.02.24(월)05:30부터]",
+    "msg" : "https://businfo.daegu.go.kr:8095/dbms_web/static/img/popup/image15.gif"
+   }]  
+}
