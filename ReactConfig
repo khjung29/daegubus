@@ -1,10 +1,10 @@
 {
-   "version" : 2,
+   "version" : 1,
    "version_date" : "2026년04월07일",
    "noti" : false,
    "notiIsUrl" : false,
    "noti_no_show_key" : "20250215",
-   "versionCode" : 2,
+   "versionCode" : 1,
    "NewRouteStart" : false,
    "notilist":[{
     "title" : "노선개편안내\n[2025.02.24(월)05:30부터]",
